@@ -1,0 +1,59 @@
+# UserStoryGenerationAsset Epics
+
+## Epic E1
+- **Epic ID:** E1
+- **Epic Name:** Outbound Pricing Feed Migration
+- **Epic Title:** Modernize and migrate outbound pricing feeds to the cloud-based target platform while preserving existing delivery behavior
+- **Epic Description:** Migrate the 41 in-scope outbound pricing data feeds from the legacy pricing platform to the modernized cloud-based architecture, ensuring all existing file layouts, delivery schedules, transmission mechanisms, and downstream integrations remain intact.
+- **Business Objective:** Migrate outbound feed delivery to the new target-state platform with full backward compatibility and no disruption to downstream consumers.
+- **Business Value:** Enables a seamless transition to the modernized pricing platform while protecting existing business contracts, preserving operational continuity, and reducing migration risk.
+- **Key Features:**
+  - Comprehensive analysis and documentation of current-state feed layouts, schedules, consumers, and transformations
+  - Detailed source-to-target mapping and gap analysis for all in-scope feeds
+  - Migration approach, sequencing, and implementation planning using approved integration standards
+  - Target-state ingestion and onboarding via APIs and Kafka streams
+  - Feed generation and distribution on the new platform with preserved file structure, schedules, and endpoints
+- **Dependencies:**
+  - Access to legacy feed documentation and output files
+  - Fidelity-approved API and Kafka integration standards
+  - Existing feed generation, scheduling, and transmission frameworks
+  - Stakeholder review and approval from Fidelity SMEs
+- **Success Criteria:**
+  - All 41 outbound pricing feeds migrated to the target-state platform
+  - Existing feed contracts, file layouts, delivery schedules, and downstream endpoints preserved
+  - Data ingestion and target-state databases populated for downstream feed generation
+  - Feed generation components implemented on the modernized platform
+  - No disruption to downstream business processes during migration
+- **BRD Reference:**
+  - Business Goal: preserve existing feed contracts, file layouts, delivery schedules, downstream endpoints, and reliable pricing data delivery
+  - Business Objectives: 1, 2, 3, 4, 5, 6, 7, 8
+  - Scope of Work Sections: 1, 2, 3, 4, 5, 6
+
+## Epic E2
+- **Epic ID:** E2
+- **Epic Name:** Feed Validation and Production Readiness
+- **Epic Title:** Validate migrated pricing feeds, support testing, and obtain formal business sign-off for production adoption
+- **Epic Description:** Establish and execute validation, reconciliation, testing, governance, and business acceptance activities to confirm migrated outbound pricing feeds are accurate, reliable, and ready for production adoption.
+- **Business Objective:** Ensure migrated feeds are fully validated against legacy outputs, meet approved specifications, and receive formal business approval before production use.
+- **Business Value:** Reduces operational risk, ensures data accuracy and compatibility, and provides confidence that the modernized feed platform meets business requirements and can be adopted without disruption.
+- **Key Features:**
+  - Automated legacy-versus-target comparison and reconciliation
+  - Regression testing, User Acceptance Testing (UAT), and parallel run support
+  - Defect tracking and issue resolution processes
+  - Governance, status reporting, and risk management
+  - Final validation and business sign-off for production adoption
+- **Dependencies:**
+  - Legacy output access and validation tooling
+  - Fidelity-led testing teams and UAT support
+  - Defect tracking and governance processes
+  - Business stakeholders for final validation and sign-off
+- **Success Criteria:**
+  - Automated validation processes compare migrated feeds against legacy outputs
+  - Variances are documented and resolved
+  - Regression, UAT, and parallel run testing are supported
+  - Defects are tracked and resolved in line with approved specifications
+  - Formal business validation and sign-off obtained prior to production adoption
+- **BRD Reference:**
+  - Business Goal: accurate and reliable delivery of pricing data; validation against legacy outputs
+  - Business Objectives: 9, 10, 11
+  - Scope of Work Sections: 7, 8, 9, 10
