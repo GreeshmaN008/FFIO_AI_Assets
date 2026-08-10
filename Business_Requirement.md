@@ -11,8 +11,7 @@ Fidelity's FFIO business unit is modernizing its Pricing Platform by transitioni
 
 The primary objective of this initiative is to ensure all outbound feeds continue to provide accurate, timely, and reliable pricing data while maintaining uninterrupted business operations. The migration must preserve existing file formats, delivery schedules, transmission mechanisms, and downstream consumer integrations, enabling a seamless and zero-disruption transition from the legacy platform to the modernized cloud platform.
 
-The target-state architecture leverages centralized data management, API-driven integrations, Kafka-based event streaming, and existing feed generation and scheduling frameworks. The modernization effort is aligned with Fidelity's broader Pricing Platform transformation roadmap, with cloud platform completion targeted for Q1 2027. 【1-3865d6】【2-2b2d77】
-
+The target-state architecture leverages centralized data management, API-driven integrations, Kafka-based event streaming, and existing feed generation and scheduling frameworks. The modernization effort is aligned with Fidelity's broader Pricing Platform transformation roadmap, with cloud platform completion targeted for Q1 2027.
 ---
 
 # Business Goal
