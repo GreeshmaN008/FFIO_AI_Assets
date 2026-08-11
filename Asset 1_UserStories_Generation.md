@@ -19,23 +19,11 @@ Refer to:
 
 <Business_Requirement.md>
 
-### Optional Client Standards
+### Client Standards
 
-```text
-{{CLIENT_STANDARDS}}
-```
+Refer to:
+<Client_Standards.md>
 
-Examples:
-
-- Epic naming standards
-- User story templates
-- Acceptance criteria standards
-- Jira/Azure DevOps fields
-- Client terminology
-- Documentation guidelines
-- Traceability requirements
-
-If not provided, use Agile/Scrum best practices.
 
 ---
 
